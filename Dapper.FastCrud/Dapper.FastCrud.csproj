@@ -9,8 +9,8 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <AssemblyTitle>Dapper.FastCrud</AssemblyTitle>
-        <AssemblyName>Dapper.FastCrud</AssemblyName>
+        <AssemblyTitle>Dapper.FastCrud.Next</AssemblyTitle>
+        <AssemblyName>Dapper.FastCrud.Next</AssemblyName>
         <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
         <EnableDocumentationFile>true</EnableDocumentationFile>
         <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Dapper.FastCrud.xml</DocumentationFile>
@@ -18,7 +18,7 @@
         <DebugSymbols>True</DebugSymbols>
         <ProductVersion>2.0.0</ProductVersion>
         <Authors>MoonStorm</Authors>
-        <PackageId>Dapper.FastCrud</PackageId>
+        <PackageId>Dapper.FastCrud.Next</PackageId>
         <PackageIconUrl>https://raw.githubusercontent.com/MoonStorm/Dapper.FastCRUD/master/logo.png</PackageIconUrl>
         <PackageLicenseUrl>http://www.opensource.org/licenses/MIT</PackageLicenseUrl>
         <PackageTags>dapper crud orm sql sqlite mysql mssql localdb postgresql poco</PackageTags>
@@ -32,7 +32,7 @@
         <Copyright />
         <PackageProjectUrl>https://github.com/MoonStorm/Dapper.FastCRUD</PackageProjectUrl>
 
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -42,7 +42,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Dapper" Version="2.0.30" />
+        <PackageReference Include="Dapper" Version="2.0.123" />
         <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
         <PackageReference Include="System.ComponentModel.TypeConverter" Version="4.3.0" />
     </ItemGroup>
