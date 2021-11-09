@@ -33,7 +33,7 @@ namespace Dapper.FastCrud.SqlBuilders
             sql += this.ResolveWithCultureInvariantFormatter($"SELECT {selectClause}, ROW_NUMBER() OVER({orderBySql}) AS [Tu3gD4i0_INDEX] FROM {fromClause} {whereSql}");
             sql += ") AS Tu3gD4i0";
             sql += " WHERE " + this.ResolveWithCultureInvariantFormatter($"[Tu3gD4i0_INDEX] BETWEEN {(skipRowsCount ?? 0) + 1} AND {(skipRowsCount ?? 0) + limitRowsCount}");
-            sql += " ORDER BY Tu3gD4i0_INDEX ASC"
+            sql += " ORDER BY Tu3gD4i0_INDEX ASC";
 
             return sql;
         }
